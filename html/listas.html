@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas en html</title>
+	
+<style type="text/css">
+body header {
+	background-color: #F9AB60;
+	color: #E7576E;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: auto;
+}
+body header , body nav, body main,{
+}
+body header h1 {
+	text-align: center;
+	width: 800px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 72px;
+}
+body header, body nav, body main, body footer {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body main section {
+	background-color: #B5DCA5;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	padding: 30px;
+	width: 800px;
+	color: #F9AB60;
+}
+body footer h6 {
+	height: 40px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 24px;
+}
+body nav {
+	background-color: #E7576E;
+	height: 50px;
+	color: #220D50;
+}
+body main {
+	background-color: #220D50;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+main section ol , main section ul{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body footer {
+	background-color: #F9AB60;
+	color: #220D50;
+	padding-top: 20px;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: 20px;
+	height: 60px;
+}
+* {
+	padding: 0;
+	margin: 0;
+}
+.box_impar {
+	background-color: #630661;
+}
+#box_unica {
+	background-color: #E7576E;
+	color: #220D50;
+}
+#lista_1 {
+	list-style-type: square;
+}
+#list_2 {
+	list-style-image: url(../Imagenes/fiesta.png);
+}
+#menu {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#menu li {
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+	margin-bottom: 5px;
+	background-color: #B5DCA5;
+	font-size: 20px;
+	border-radius: 10px;
+	color: #001654;
+	border: 1px solid #040339;
+	padding: 5px;
+	margin-top: 5px;
+}
+#menu li a:hover {
+	color: #E7576E;
+}
+#menu li {
+}
+#menu_dos li {
+	list-style-type: none;
+	display: inline-block;
+	background-color: #F9AB60;
+	margin-left: 20px;
+	padding: 10px;
+	margin-right: 20px;
+	color: #220D50;
+}
+#menu_dos {
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Listas en html</h1>
+</header>
+<nav>
+  <ul id="menu">
+    <li><a href="formatos_texto.html">Formatos de texto</a>&nbsp;</li>
+    <li><a href="listas.html">Listas</a>&nbsp;</li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="imagenes.html">Imagenes</a><a>&nbsp;</a></li>
+    <li><a href="audio.html">Audio</a></li>
+    <li><a href="video.html">Video</a></li>
+    <li><a href="formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section class="box_impar">
+    <h2>Lista ordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti beatae voluptate maxime, harum in dignissimos? Facilis quaerat nobis quis, repudiandae explicabo! Ut excepturi dicta in quidem quos, ab sapiente sunt molestias dolore quo, voluptate harum asperiores. Amet harum quis ut ratione molestias velit sequi eaque assumenda nobis. Explicabo et sit laboriosam quidem enim, ipsum itaque, cum officia dignissimos vero natus, culpa tempore commodi illum debitis libero. Sed vel libero quia eaque temporibus voluptate odio doloremque nesciunt, at ratione cumque, recusandae ab cupiditate consectetur, optio odit sapiente ad. Modi ea id quae nemo, assumenda! Eum earum, amet non iste, unde doloribus.</p>
+	<ol>
+		<li>Puebla</li>
+		<li>Veracruz</li>
+		<li>Tabasco</li>
+		<li>Chiapas</li>
+		<li>Tlaxcala</li>
+	</ol>
+	  </section>
+	<section>
+	  <h2>Lista desordenada</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe officia illum voluptas repudiandae atque fugit veritatis impedit totam quo maxime, explicabo consectetur at optio excepturi minus minima quibusdam dignissimos eveniet obcaecati, deleniti quas repellat. Voluptate nulla explicabo magni nihil, veritatis molestias harum a, cum qui. Tempora, nobis! Voluptatibus esse libero dolore quam, minima natus. Mollitia ut molestias, dolores quo ipsum.</p>
+		<ul id="menu_dos">
+			<li><a href="https://www.gob.mx">México</a></li>
+		  	<li><a href="https://www.mercadolibre.com.mx">Mercado libre</a></li>
+<li><a href="formatos_texto.html">Formatos de Texto&nbsp;</a></li>
+			<li><a href="../pdf/Apuntes docente - HTML .pdf" target="new">Apuntes HTML</a></li>
+			<li>Brasil</li>
+		</ul>
+	</section>
+<section class="box_impar">
+		<h2>Lista mixta</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores veniam fugiat et temporibus nobis, ducimus ea esse doloremque laudantium. Perspiciatis placeat beatae illo non assumenda ratione provident, commodi recusandae? Harum sapiente nulla impedit optio magnam natus eaque reiciendis doloremque repellendus quas totam voluptatem reprehenderit alias enim saepe, nihil illum fuga provident a hic necessitatibus nobis dolore debitis excepturi! Saepe, assumenda!</p>
+	<ol>
+		<li>México
+			<ul>
+				<li>Puebla
+					<ol>
+						<li>Atlixco</li>
+						<li>Tepeaca</li>
+						<li>Acajete</li>
+					</ol>
+				</li>
+				<li>Veracruz</li>
+				<li>Tabasco</li>
+			</ul>
+		</li>
+		<li>España</li>
+		<li>Estados Unidos</li>
+		<li>Italia</li>
+			<ol>
+				<li>Toscana</li>
+				<li>Roma</li>
+				<li>Venecia</li>
+			</ol>
+		<li>Brasil</li>
+	</ol>
+	</section>
+	<section>
+	  <h2>Lista desde dreamweaver</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos pariatur officiis fugiat, excepturi, praesentium velit harum nostrum nobis impedit ab voluptate sapiente, eaque facilis aspernatur eligendi sit sed architecto hic. A quos consequatur repudiandae porro rem, excepturi ratione quam beatae unde? Beatae provident, deserunt a magnam in veritatis adipisci cum tempore. A, non repellat iusto ipsa adipisci ipsum obcaecati reprehenderit.</p>
+	  <ol id="list_2">
+	    <li>Margaritas</li>
+	    <li>Rosas</li>
+	    <li>Gerberas</li>
+      </ol>
+  </section>
+	<section id="box_unica">
+	  <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor omnis, nemo! Eos expedita sunt, at qui cupiditate quasi, veniam, praesentium dolorem exercitationem quo corporis placeat cum, voluptate dignissimos sint sed. Officia ea ratione maxime eligendi accusantium quasi repellendus delectus eius veniam dolore asperiores, similique, facilis minima rerum facere, esse pariatur?</p>
+	  <ul id="lista_1">
+	    <li>María de los Angeles</li>
+	    <li> Martin Lopez</li>
+	    <li>Janet Rivera</li>
+	    <li>Fernando Montes&nbsp;</li>
+	    <p>&nbsp;</p>
+        <a href="../pdf/Mapa conceptual (1).pdf"><img src="../Imagenes/fiesta.png" width="32" height="32" alt=""/></a>
+      </ul>
+    </section>
+</main>	
+<footer>
+  <h6>Elaborado por: Karen Rubi Torres Candia</h6>
+</footer>
+</body>
+</html>
